@@ -1,0 +1,22 @@
+.controlPanel{
+    // border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.delSel,
+.delAll{
+    font-size: 40px;  
+    transition: .2s;  
+}
+
+.delAll:hover,
+.delSel:hover{
+    color: red;
+}
+
+.disable{
+    color: lightgray;
+}

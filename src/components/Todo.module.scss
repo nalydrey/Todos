@@ -1,0 +1,46 @@
+@mixin icons {
+    font-size: 1.8rem;
+    color: rgb(188, 178, 178);
+    transition: .5s;
+}
+
+.todo{
+    background-color: white;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    h4{
+        width: 100%;
+    }
+    .deleteTodo{
+        @include icons()
+    }
+    .checkTodo{
+        @include icons()
+    }
+}
+
+.todoComplete{
+    background: grey;
+}
+
+.todoIcon {
+    font-size: 1.8rem;
+    color: teal; 
+}
+
+.checkTodo:hover{
+    color: green;
+    transform: scale(1.5);
+}
+
+.deleteTodo:hover{
+    color: red;
+    transform: scale(1.5);
+}
+

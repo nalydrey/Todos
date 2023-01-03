@@ -1,0 +1,25 @@
+$pad: 10px;
+$rad: 8px;
+
+.formTodo{
+    margin: 30px auto;
+    form{
+      display: flex;
+      justify-content: center; 
+      gap: 20px;
+    }
+    input{
+      padding: $pad;
+      border-radius: $rad;
+      border: none;
+      width: 100%;
+      font-size: 1.2rem;
+    }
+    button{
+      border-radius: $rad;
+      padding: $pad 15px;
+      border: none;
+      font-size: 1.2rem;
+    }
+    
+}
